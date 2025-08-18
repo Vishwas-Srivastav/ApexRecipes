@@ -56,7 +56,7 @@ Apex Recipes demonstrates:
 
 ---
 
-##Getting Started
+## Getting Started
 
 Clone the repository:
 
@@ -66,14 +66,14 @@ git clone https://github.com/Vishwas-Srivastav/ApexRecipes.git
 
 ---
 
-##Contributing
+## Contributing
 
 Contributions are welcome! 
 If you have additional recipes, improvements, or suggestions, please open a **Pull Request** or create an **Issue**.
 
 ---
 
-##Author
+## Author
 
 Created with by **Vishwas Srivastav**
 
