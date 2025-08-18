@@ -76,7 +76,3 @@ If you have additional recipes, improvements, or suggestions, please open a **Pu
 ## Author
 
 Created with by **Vishwas Srivastav**
-
----
-
-Would you like me to also add **badges (Salesforce, Apex, License, PRs welcome)** at the top to make it look even more **professional and GitHub-trendy**?
