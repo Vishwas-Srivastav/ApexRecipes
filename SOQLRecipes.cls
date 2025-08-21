@@ -107,15 +107,7 @@
             LIMIT 10
         ];
         
-        // 12. FOR UPDATE - Lock records for update
-        List<Account> lockedAccounts = [
-            SELECT Id, Name 
-            FROM Account 
-            LIMIT 5 
-            FOR UPDATE
-        ];
-        
-        // 13. OFFSET - Pagination example (skip first 5, fetch next 5)
+        // 12. OFFSET - Pagination example (skip first 5, fetch next 5)
         List<Contact> pagedContacts = [
             SELECT Id, Name, Email 
             FROM Contact 
@@ -123,7 +115,7 @@
             LIMIT 5 OFFSET 5
         ];
         
-        // 14. FOR VIEW - Query for reporting purposes
+        // 13. FOR VIEW - Query for reporting purposes
         List<Account> viewedAccounts = [
             SELECT Id, Name 
             FROM Account 
@@ -131,7 +123,7 @@
             FOR VIEW
         ];
         
-        // 15. FOR REFERENCE - Query for auditing/reference purposes
+        // 14. FOR REFERENCE - Query for auditing/reference purposes
         List<Account> referencedAccounts = [
             SELECT Id, Name 
             FROM Account 
