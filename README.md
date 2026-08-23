@@ -58,21 +58,47 @@ Apex Recipes demonstrates:
 
 ## Getting Started
 
-Clone the repository:
-
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/Vishwas-Srivastav/ApexRecipes.git
 ```
 
+### 2. Local Configuration
+```bash
+cp .env.example .env
+```
+
+### 3. Initialize Engineering Guardrails
+```bash
+./scripts/setup-guardrails.sh
+```
+
+### 4. Run Guardrail Checks
+```bash
+./scripts/check-guardrails.sh --all
+```
+
 ---
 
-## Contributing
+## Development Workflow
 
-Contributions are welcome! 
-If you have additional recipes, improvements, or suggestions, please open a **Pull Request** or create an **Issue**.
+- **Default Branch:** `development` (All Pull Requests must target `development`).
+- **Production Sync:** Merging into `development` automatically syncs changes to `main`.
+- **Branch Naming:** `<PROJECT_INITIALS>-<NUMBER>` (e.g., `AR-01`, `AR-02`).
+- **Commit Format:** [Conventional Commits](https://www.conventionalcommits.org/) (`feat:`, `fix:`, `docs:`, `chore:`).
+
+---
+
+## Documentation & Standards
+
+- **Contributor Guide:** [CONTRIBUTING.md](CONTRIBUTING.md)
+- **Engineering Guardrails:** [docs/GUARDRAILS.md](docs/GUARDRAILS.md)
+- **UI & Icon Standards:** [docs/UI_GUIDELINES.md](docs/UI_GUIDELINES.md)
+- **Security Policy:** [SECURITY.md](SECURITY.md)
+- **Template Reference:** [docs/TEMPLATE_GUIDE.md](docs/TEMPLATE_GUIDE.md)
 
 ---
 
 ## Author
 
-Created with by **Vishwas Srivastav**
+Created and maintained by **Vishwas Srivastav**
