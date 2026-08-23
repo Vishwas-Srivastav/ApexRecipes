@@ -1,19 +1,11 @@
 # ==============================================================================
-# CODEOWNERS (Optional Starting Point)
+# CODEOWNERS
 # ==============================================================================
-# This file defines individuals or teams responsible for code in this repository.
-# For more information, see:
-# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
-#
-# Usage:
-# - Replace '<TEAM_OR_USERNAME>' with your actual GitHub username or team handle.
-# - If your project does not require automatic code review assignment, you may
-#   safely delete or leave this file commented out.
-# ==============================================================================
+# Global default repository owners:
+* @Vishwas-Srivastav
 
-# Default owners for all files in the repository:
-# * @<TEAM_OR_USERNAME>
-
-# Component-specific ownership examples (uncomment as needed):
-# /docs/                   @<DOCUMENTATION_LEAD>
-# /.github/workflows/      @<DEVOPS_OR_MAINTAINER>
+# Section owners:
+/docs/ @Vishwas-Srivastav
+/.github/workflows/ @Vishwas-Srivastav
+/scripts/ @Vishwas-Srivastav
+/force-app/ @Vishwas-Srivastav

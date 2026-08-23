@@ -54,9 +54,9 @@ Branches are named using the **Project Initials** and a traceable work item **Nu
 
 | Project Name | Project Initials | Branch Name Example |
 | :--- | :--- | :--- |
+| **Apex Recipes** | `APEX` | `APEX-01` *(or `feature/APEX-01`)* |
 | **WebscribeAI** | `WSAI` | `WSAI-01` *(or `feature/WSAI-01`)* |
 | **Unclutter** | `UC` | `UC-01` *(or `bugfix/UC-01`)* |
-| **Memory Lens** | `ML` | `ML-01` *(or `chore/ML-01`)* |
 
 ### Rules for Branches
 
