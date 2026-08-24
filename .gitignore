@@ -46,14 +46,14 @@ yarn-error.log*
 pnpm-debug.log*
 
 # Editor and IDE Settings
-.vscode/*
-!.vscode/settings.json
-!.vscode/extensions.json
-!.vscode/launch.json
+.vscode/
 .idea/
 *.swp
 *.swo
 *~
+
+# Salesforce Metadata & CLI
+.sfdx/
 
 # Operating System Metadata
 .DS_Store
